@@ -86,4 +86,4 @@ for div in genres_listing_divs:
         movie_title = movie_header.split('\n')[2]
         request_cache(movie_title, cache_dict)
 
-print('length', len(cache_dict))
+# print('length', len(cache_dict))
